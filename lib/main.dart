@@ -3,7 +3,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:track_your_workout/Compounent/constants.dart';
 import 'package:track_your_workout/Cubit/Cubit.dart';
-import 'package:track_your_workout/Screens/HistoryScreen/HistoryScreen.dart';
 
 import 'Cubit/BlocObserver.dart';
 import 'Screens/HomeScreen/HomeScreen.dart';
@@ -26,7 +25,6 @@ void main() {
           child: MaterialApp(
             debugShowCheckedModeBanner: false,
             theme: ThemeData(
-              scaffoldBackgroundColor: kWhite,
               appBarTheme: const AppBarTheme(
                 color: Colors.white,
                 elevation: 0,

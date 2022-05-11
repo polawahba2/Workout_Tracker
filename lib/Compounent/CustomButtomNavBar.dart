@@ -112,7 +112,7 @@ class CustomBottomNavBar extends StatelessWidget {
               padding: const EdgeInsets.all(15.0),
               shape: const CircleBorder(),
               onPressed: () {
-                pushOnly(route: const NewExercise(), context: context);
+                pushOnly(route: NewExercise(), context: context);
               },
             ),
           ),

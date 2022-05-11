@@ -1,5 +1,5 @@
 class ObjectModel {
- // Map m = {
+  // Map m = {
   //   '13/4/2022': {
   //     'Incline Bench Press': [
   //       {
@@ -79,5 +79,3 @@ class ObjectModel {
   // };
 
 }
-
-
